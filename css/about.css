@@ -1,0 +1,41 @@
+#about{
+
+	height: 80%;
+	width: 80%;
+	left: -100%;
+	background: linear-gradient(#485563,#29323c);
+	transition: all 1.5s;
+	position: absolute;
+	z-index: 3;
+	margin-left: 10%; 
+	top: 10%;
+	display: grid;
+	grid-template-columns: 3fr 5fr;
+	grid-column-gap: 1em;
+}
+
+.abt-img{
+	background: url(../images/portbackg.jpg)center;
+	background-size: cover;
+}
+
+.abt-txt{
+	width: 90%;	
+	margin:0 auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	margin-top: 25px;
+	letter-spacing: 1px;
+}
+
+.close{
+	float: right;
+	font-size: 30px;
+	transition: all .5s;
+}
+
+.close:hover{
+	color: #5985a3;
+	cursor: pointer;
+
+}
